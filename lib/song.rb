@@ -28,5 +28,9 @@ class Song
     @@all << song
     song
   end
+  
+  def self.find_by_name(song_name)
+    song = self.new
+    song.name =
 
 end
