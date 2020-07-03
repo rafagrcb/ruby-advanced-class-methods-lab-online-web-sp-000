@@ -28,7 +28,5 @@ class Song
     @@all << song
     song
   end
-  
-  def 
 
 end
