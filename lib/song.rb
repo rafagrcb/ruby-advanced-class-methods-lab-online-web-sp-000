@@ -10,8 +10,7 @@ class Song
     self.class.all << self
   end
   
-  def song.create
-    song.all.include?(song)
-  end
+  song = song.create
+  song.all.include?(song)
 
 end
