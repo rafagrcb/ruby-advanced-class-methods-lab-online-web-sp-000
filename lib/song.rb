@@ -34,7 +34,7 @@ class Song
   end
   
   def self.fin_or_create_by_name(song_name)
-    self.all.find { |song| song.name = song_name}
+    self
     
 
 end
